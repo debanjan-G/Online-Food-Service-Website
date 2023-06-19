@@ -1,0 +1,62 @@
+.navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul li a{
+    padding: 5px;
+    font-size: 1rem;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    padding: 0px 5px;
+    font-size: 1rem;
+}
+
+#home {
+    height: 470px;
+    padding: 5px 50px;
+
+}
+#home p{
+    font-size: 1rem;
+}
+.primary_header{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+
+#home::before {
+    height: 600px;
+}
+
+.services_menu {
+    flex-direction: column;
+}
+
+.menu {
+    flex-direction: column;
+}
+
+.sponsor_company {
+   flex-wrap: wrap;
+}
+.company{
+    padding: 0;
+}
+.contact_us input,.contact_us textarea{
+    width: 50%;
+}
+
+.contact_us input{
+    font-size: 1rem;
+    
+}
+
